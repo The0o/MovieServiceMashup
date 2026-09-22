@@ -1,3 +1,5 @@
+namespace java fr.univangers.movieservice.thrift
+
 struct MovieDto {
     1: string title,
     2: i16 year,
