@@ -6,7 +6,7 @@ public class MovieModelFactory {
 
     }
 
-    public MovieModelImpl getInstance() {
+    public MovieModelImpl getModel() {
         if (instance == null) {
             instance = new MovieModelImpl();
         }

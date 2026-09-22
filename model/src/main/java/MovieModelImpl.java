@@ -6,6 +6,8 @@ import java.util.List;
 
 public class MovieModelImpl implements MovieModel {
 
+    private List<Movie> movies;
+
     @Override
     public int addMovie(String title, int year, Date visualisationDate, int puntuation) {
         return 0;
