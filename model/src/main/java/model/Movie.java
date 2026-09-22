@@ -1,12 +1,18 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.Date;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Movie {
 
     private String title;
     private int year;
     private VisualisationInfo visualisationInfo;
+
+    public Movie() {
+    }
 
     public Movie(String title, int year, Date visualisationDate, int puntuation) {
         setTitle(title);

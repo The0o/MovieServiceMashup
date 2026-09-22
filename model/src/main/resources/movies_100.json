@@ -1,0 +1,1447 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "directors": [
+      "Frank Darabont"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2025-01-03",
+      "rating": 6.0
+    }
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-01-14",
+      "rating": 6.7
+    }
+  },
+  {
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-01-25",
+      "rating": 7.4
+    }
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2025-02-05",
+      "rating": 8.1
+    }
+  },
+  {
+    "title": "12 Angry Men",
+    "year": 1957,
+    "directors": [
+      "Sidney Lumet"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-02-16",
+      "rating": 8.8
+    }
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1993,
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-02-27",
+      "rating": 9.5
+    }
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "directors": [
+      "Peter Jackson"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-03-10",
+      "rating": 6.1
+    }
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-03-21",
+      "rating": 6.8
+    }
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "directors": [
+      "Sergio Leone"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2025-04-01",
+      "rating": 7.5
+    }
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "directors": [
+      "David Fincher"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-04-12",
+      "rating": 8.2
+    }
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "directors": [
+      "Robert Zemeckis"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-04-23",
+      "rating": 8.9
+    }
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2025-05-04",
+      "rating": 9.6
+    }
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "directors": [
+      "Peter Jackson"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-05-15",
+      "rating": 6.2
+    }
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "directors": [
+      "Peter Jackson"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-05-26",
+      "rating": 6.9
+    }
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "directors": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-06-06",
+      "rating": 7.6
+    }
+  },
+  {
+    "title": "Goodfellas",
+    "year": 1990,
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-06-17",
+      "rating": 8.3
+    }
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "directors": [
+      "Miloš Forman"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2025-06-28",
+      "rating": 9.0
+    }
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-07-09",
+      "rating": 9.7
+    }
+  },
+  {
+    "title": "City of God",
+    "year": 2002,
+    "directors": [
+      "Fernando Meirelles",
+      "Kátia Lund"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-07-20",
+      "rating": 6.3
+    }
+  },
+  {
+    "title": "Seven Samurai",
+    "year": 1954,
+    "directors": [
+      "Akira Kurosawa"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2025-07-31",
+      "rating": 7.0
+    }
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "directors": [
+      "Jonathan Demme"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-08-11",
+      "rating": 7.7
+    }
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-08-22",
+      "rating": 8.4
+    }
+  },
+  {
+    "title": "The Green Mile",
+    "year": 1999,
+    "directors": [
+      "Frank Darabont"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-09-02",
+      "rating": 9.1
+    }
+  },
+  {
+    "title": "Life Is Beautiful",
+    "year": 1997,
+    "directors": [
+      "Roberto Benigni"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-09-13",
+      "rating": 9.8
+    }
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "directors": [
+      "James Cameron"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2025-09-24",
+      "rating": 6.4
+    }
+  },
+  {
+    "title": "Back to the Future",
+    "year": 1985,
+    "directors": [
+      "Robert Zemeckis"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-10-05",
+      "rating": 7.1
+    }
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "directors": [
+      "Hayao Miyazaki"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-10-16",
+      "rating": 7.8
+    }
+  },
+  {
+    "title": "The Pianist",
+    "year": 2002,
+    "directors": [
+      "Roman Polanski"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2025-10-27",
+      "rating": 8.5
+    }
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "directors": [
+      "Bong Joon Ho"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-11-07",
+      "rating": 9.2
+    }
+  },
+  {
+    "title": "Psycho",
+    "year": 1960,
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-11-18",
+      "rating": 9.9
+    }
+  },
+  {
+    "title": "The Departed",
+    "year": 2006,
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2025-11-29",
+      "rating": 6.5
+    }
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "directors": [
+      "Ridley Scott"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2025-12-10",
+      "rating": 7.2
+    }
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2025-12-21",
+      "rating": 7.9
+    }
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-01-01",
+      "rating": 8.6
+    }
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "directors": [
+      "Roger Allers",
+      "Rob Minkoff"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-01-12",
+      "rating": 9.3
+    }
+  },
+  {
+    "title": "Alien",
+    "year": 1979,
+    "directors": [
+      "Ridley Scott"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2026-01-23",
+      "rating": 10.0
+    }
+  },
+  {
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "directors": [
+      "Bryan Singer"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-02-03",
+      "rating": 6.6
+    }
+  },
+  {
+    "title": "The Great Dictator",
+    "year": 1940,
+    "directors": [
+      "Charlie Chaplin"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-02-14",
+      "rating": 7.3
+    }
+  },
+  {
+    "title": "Cinema Paradiso",
+    "year": 1988,
+    "directors": [
+      "Giuseppe Tornatore"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-02-25",
+      "rating": 8.0
+    }
+  },
+  {
+    "title": "The Lives of Others",
+    "year": 2006,
+    "directors": [
+      "Florian Henckel von Donnersmarck"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-03-08",
+      "rating": 8.7
+    }
+  },
+  {
+    "title": "Casablanca",
+    "year": 1942,
+    "directors": [
+      "Michael Curtiz"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2026-03-19",
+      "rating": 9.4
+    }
+  },
+  {
+    "title": "Django Unchained",
+    "year": 2012,
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-03-30",
+      "rating": 6.0
+    }
+  },
+  {
+    "title": "The Intouchables",
+    "year": 2011,
+    "directors": [
+      "Olivier Nakache",
+      "Éric Toledano"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-04-10",
+      "rating": 6.7
+    }
+  },
+  {
+    "title": "Modern Times",
+    "year": 1936,
+    "directors": [
+      "Charlie Chaplin"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2026-04-21",
+      "rating": 7.4
+    }
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "year": 1968,
+    "directors": [
+      "Sergio Leone"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-05-02",
+      "rating": 8.1
+    }
+  },
+  {
+    "title": "Rear Window",
+    "year": 1954,
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-05-13",
+      "rating": 8.8
+    }
+  },
+  {
+    "title": "Memento",
+    "year": 2000,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-05-24",
+      "rating": 9.5
+    }
+  },
+  {
+    "title": "The Great Escape",
+    "year": 1963,
+    "directors": [
+      "John Sturges"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-06-04",
+      "rating": 6.1
+    }
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2026-06-15",
+      "rating": 6.8
+    }
+  },
+  {
+    "title": "American History X",
+    "year": 1998,
+    "directors": [
+      "Tony Kaye"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-06-26",
+      "rating": 7.5
+    }
+  },
+  {
+    "title": "Amélie",
+    "year": 2001,
+    "directors": [
+      "Jean-Pierre Jeunet"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-07-07",
+      "rating": 8.2
+    }
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2026-07-18",
+      "rating": 8.9
+    }
+  },
+  {
+    "title": "A Beautiful Mind",
+    "year": 2001,
+    "directors": [
+      "Ron Howard"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-07-29",
+      "rating": 9.6
+    }
+  },
+  {
+    "title": "Toy Story",
+    "year": 1995,
+    "directors": [
+      "John Lasseter"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-08-09",
+      "rating": 6.2
+    }
+  },
+  {
+    "title": "Braveheart",
+    "year": 1995,
+    "directors": [
+      "Mel Gibson"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-08-20",
+      "rating": 6.9
+    }
+  },
+  {
+    "title": "The Truman Show",
+    "year": 1998,
+    "directors": [
+      "Peter Weir"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-08-31",
+      "rating": 7.6
+    }
+  },
+  {
+    "title": "Reservoir Dogs",
+    "year": 1992,
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2026-09-11",
+      "rating": 8.3
+    }
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "directors": [
+      "Michel Gondry"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-09-22",
+      "rating": 9.0
+    }
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-10-03",
+      "rating": 9.7
+    }
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "year": 1962,
+    "directors": [
+      "David Lean"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2026-10-14",
+      "rating": 6.3
+    }
+  },
+  {
+    "title": "The Shining",
+    "year": 1980,
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-10-25",
+      "rating": 7.0
+    }
+  },
+  {
+    "title": "WALL-E",
+    "year": 2008,
+    "directors": [
+      "Andrew Stanton"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-11-05",
+      "rating": 7.7
+    }
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-11-16",
+      "rating": 8.4
+    }
+  },
+  {
+    "title": "Coco",
+    "year": 2017,
+    "directors": [
+      "Lee Unkrich",
+      "Adrian Molina"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-11-27",
+      "rating": 9.1
+    }
+  },
+  {
+    "title": "Joker",
+    "year": 2019,
+    "directors": [
+      "Todd Phillips"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2026-12-08",
+      "rating": 9.8
+    }
+  },
+  {
+    "title": "Whiplash",
+    "year": 2014,
+    "directors": [
+      "Damien Chazelle"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2026-12-19",
+      "rating": 6.4
+    }
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "directors": [
+      "Wes Anderson"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2026-12-30",
+      "rating": 7.1
+    }
+  },
+  {
+    "title": "Her",
+    "year": 2013,
+    "directors": [
+      "Spike Jonze"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2027-01-10",
+      "rating": 7.8
+    }
+  },
+  {
+    "title": "Oldboy",
+    "year": 2003,
+    "directors": [
+      "Park Chan Wook"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-01-21",
+      "rating": 8.5
+    }
+  },
+  {
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "directors": [
+      "Hayao Miyazaki"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-02-01",
+      "rating": 9.2
+    }
+  },
+  {
+    "title": "Your Name.",
+    "year": 2016,
+    "directors": [
+      "Makoto Shinkai"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-02-12",
+      "rating": 9.9
+    }
+  },
+  {
+    "title": "The Hunt",
+    "year": 2012,
+    "directors": [
+      "Thomas Vinterberg"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-02-23",
+      "rating": 6.5
+    }
+  },
+  {
+    "title": "Requiem for a Dream",
+    "year": 2000,
+    "directors": [
+      "Darren Aronofsky"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2027-03-06",
+      "rating": 7.2
+    }
+  },
+  {
+    "title": "Amadeus",
+    "year": 1984,
+    "directors": [
+      "Miloš Forman"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-03-17",
+      "rating": 7.9
+    }
+  },
+  {
+    "title": "Full Metal Jacket",
+    "year": 1987,
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-03-28",
+      "rating": 8.6
+    }
+  },
+  {
+    "title": "Bringing Up Baby",
+    "year": 1938,
+    "directors": [
+      "Howard Hawks"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2027-04-08",
+      "rating": 9.3
+    }
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": 1952,
+    "directors": [
+      "Stanley Donen",
+      "Gene Kelly"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-04-19",
+      "rating": 10.0
+    }
+  },
+  {
+    "title": "North by Northwest",
+    "year": 1959,
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-04-30",
+      "rating": 6.6
+    }
+  },
+  {
+    "title": "Vertigo",
+    "year": 1958,
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-05-11",
+      "rating": 7.3
+    }
+  },
+  {
+    "title": "Raging Bull",
+    "year": 1980,
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-05-22",
+      "rating": 8.0
+    }
+  },
+  {
+    "title": "Taxi Driver",
+    "year": 1976,
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2027-06-02",
+      "rating": 8.7
+    }
+  },
+  {
+    "title": "The Social Network",
+    "year": 2010,
+    "directors": [
+      "David Fincher"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-06-13",
+      "rating": 9.4
+    }
+  },
+  {
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "directors": [
+      "Joel Coen",
+      "Ethan Coen"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-06-24",
+      "rating": 6.0
+    }
+  },
+  {
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "directors": [
+      "Paul Thomas Anderson"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2027-07-05",
+      "rating": 6.7
+    }
+  },
+  {
+    "title": "Green Book",
+    "year": 2018,
+    "directors": [
+      "Peter Farrelly"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-07-16",
+      "rating": 7.4
+    }
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "directors": [
+      "George Miller"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-07-27",
+      "rating": 8.1
+    }
+  },
+  {
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "directors": [
+      "M. Night Shyamalan"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-08-07",
+      "rating": 8.8
+    }
+  },
+  {
+    "title": "A Clockwork Orange",
+    "year": 1971,
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-08-18",
+      "rating": 9.5
+    }
+  },
+  {
+    "title": "Dr. Strangelove",
+    "year": 1964,
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2027-08-29",
+      "rating": 6.1
+    }
+  },
+  {
+    "title": "Die Hard",
+    "year": 1988,
+    "directors": [
+      "John McTiernan"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-09-09",
+      "rating": 6.8
+    }
+  },
+  {
+    "title": "The Terminator",
+    "year": 1984,
+    "directors": [
+      "James Cameron"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-09-20",
+      "rating": 7.5
+    }
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2027-10-01",
+      "rating": 8.2
+    }
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-10-12",
+      "rating": 8.9
+    }
+  },
+  {
+    "title": "The Thing",
+    "year": 1982,
+    "directors": [
+      "John Carpenter"
+    ],
+    "platforms": [
+      "Netflix",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-10-23",
+      "rating": 9.6
+    }
+  },
+  {
+    "title": "Blade Runner",
+    "year": 1982,
+    "directors": [
+      "Ridley Scott"
+    ],
+    "platforms": [
+      "Disney+",
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-11-03",
+      "rating": 6.2
+    }
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "directors": [
+      "Joel Coen"
+    ],
+    "platforms": [
+      "Max",
+      "Apple TV+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-11-14",
+      "rating": 6.9
+    }
+  },
+  {
+    "title": "Heat",
+    "year": 1995,
+    "directors": [
+      "Michael Mann"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "visualisationinfo": {
+      "date": "2027-11-25",
+      "rating": 7.6
+    }
+  },
+  {
+    "title": "Scarface",
+    "year": 1983,
+    "directors": [
+      "Brian De Palma"
+    ],
+    "platforms": [
+      "Prime Video"
+    ],
+    "visualisationinfo": {
+      "date": "2027-12-06",
+      "rating": 8.3
+    }
+  },
+  {
+    "title": "The Apartment",
+    "year": 1960,
+    "directors": [
+      "Billy Wilder"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "visualisationinfo": {
+      "date": "2027-12-17",
+      "rating": 9.0
+    }
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "year": 1975,
+    "directors": [
+      "Terry Gilliam",
+      "Terry Jones"
+    ],
+    "platforms": [
+      "Max"
+    ],
+    "visualisationinfo": {
+      "date": "2027-12-28",
+      "rating": 9.7
+    }
+  }
+]

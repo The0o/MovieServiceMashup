@@ -1,14 +1,26 @@
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import exception.MovieNotFoundException;
 import model.Movie;
 
+import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-
 public class MovieModelImpl implements MovieModel {
 
     private List<Movie> movies;
+
+    public MovieModelImpl() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            InputStream inputStream = getClass().getClassLoader().getResourceAsStream("movies_100.json");
+
+            this.movies = mapper.readValue(inputStream, new TypeReference<List<Movie>>() {});
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     @Override
     public int addMovie(String title, int year, Date visualisationDate, int puntuation) {
