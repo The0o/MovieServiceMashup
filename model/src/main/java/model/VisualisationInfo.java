@@ -7,6 +7,11 @@ public class VisualisationInfo {
     private Date visualisationDate;
     private int punctuation;
 
+    public VisualisationInfo(Date visualisationDate, int punctuation) {
+        setVisualisationDate(visualisationDate);
+        setPunctuation(punctuation);
+    }
+
     public Date getVisualisationDate() {
         return visualisationDate;
     }

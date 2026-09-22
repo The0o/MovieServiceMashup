@@ -1,10 +1,18 @@
 package model;
 
+import java.util.Date;
+
 public class Movie {
 
     private String title;
     private int year;
     private VisualisationInfo visualisationInfo;
+
+    public Movie(String title, int year, Date visualisationDate, int puntuation) {
+        setTitle(title);
+        setYear(year);
+        setVisualisationInfo(new VisualisationInfo(visualisationDate, puntuation));
+    }
 
     public int getYear() {
         return year;
