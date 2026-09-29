@@ -5,6 +5,8 @@ import org.apache.thrift.TException;
 import java.util.List;
 
 public class MovieServiceThriftImpl implements MovieService.Iface {
+
+
     @Override
     public void addMovie(MovieDto movie) throws TException {
 
@@ -20,3 +22,6 @@ public class MovieServiceThriftImpl implements MovieService.Iface {
         return List.of();
     }
 }
+
+
+
