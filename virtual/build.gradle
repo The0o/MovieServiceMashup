@@ -1,5 +1,33 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot' version '3.5.9'
+    id 'io.spring.dependency-management' version '1.1.7'
+    id 'com.linecorp.thrift-gradle-plugin' version '0.6.1'
 }
 
+repositories {
+    mavenCentral()
+}
 
+dependencies {
+    implementation project(':tmdb')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.apache.thrift:libthrift:0.19.0'
+    // Annotation @Generated utilisee par le code genere par Thrift
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Le client Thrift est genere a partir de l'IDL du module thrift (pas de copie du fichier)
+compileThrift {
+    thriftExecutable '/usr/bin/thrift'
+    sourceDir "${rootDir}/thrift/src/main/thrift"
+    outputDir "${buildDir}/generated-sources/thrift"
+    generator 'java', 'private-members'
+}
+
+test {
+    useJUnitPlatform()
+}
