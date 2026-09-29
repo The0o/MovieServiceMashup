@@ -25,9 +25,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-reload4j:2.0.16'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    // 0.19.0 -> 0.22.0 pour être compatible sous mon système Arch ; à voir si on peut pas fair        ... 31 more
-    //<===========--> 90% EXECUTING [4m 3s]
-    //> :thrift:appRune un truc non local
+    // 0.19.0 -> 0.22.0 pour être compatible sous mon système Arch ; à voir si on peut pas faire un truc non local
     implementation 'org.apache.thrift:libthrift:0.22.0'
     implementation project(':model')
 }
