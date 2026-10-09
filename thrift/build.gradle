@@ -1,5 +1,60 @@
 plugins {
     id 'java'
+    // thrift (LINE)
+    id "com.linecorp.thrift-gradle-plugin" version "0.6.1"
+    // WAR
+    id 'war'
+    // GRETTY
+    id "org.gretty" version "4.1.1"
 }
 
 
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+// https://mvnrepository.com/artifact/org.apache.thrift/libthrift
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j
+    //implementation 'org.gretty:gretty:+'
+    implementation 'org.slf4j:slf4j-reload4j:2.0.16'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // 0.19.0 -> 0.22.0 pour être compatible sous mon système Arch ; à voir si on peut pas faire un truc non local
+    implementation 'org.apache.thrift:libthrift:0.22.0'
+    implementation project(':model')
+}
+
+
+compileThrift {
+    thriftExecutable "/usr/bin/thrift"
+    sourceDir "$projectDir/src/main/thrift"
+    outputDir "$projectDir/generated/java"
+    nowarn true
+    strict true
+    verbose true
+    recurse true
+    debug true
+    createGenFolder false
+    generator 'java', 'private-members'
+}
+
+sourceSets.main.java.srcDirs += ['$projectDir/generated/java']
+
+java {
+    sourceCompatibility = '21'
+}
+
+// pour que Gretty accepte JAVA 21
+gretty {
+    servletContainer = 'tomcat10'
+}
+
+test {
+    useJUnitPlatform()
+}
