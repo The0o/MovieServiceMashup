@@ -25,8 +25,6 @@ public class TMDbClientImpl implements MovieInformationClient {
 
     private static final String DEFAULT_BASE_URL = "https://api.themoviedb.org/3";
     private static final String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
-    // Limite le nombre d'appels /person (un par acteur) pour ne pas depasser le quota TMDb
-    private static final int MAX_CHARACTERS = 20;
 
     private final String apiKey;
     private final String baseUrl;
@@ -100,9 +98,6 @@ public class TMDbClientImpl implements MovieInformationClient {
     private List<CharacterDto> findCharacters(JsonNode castNode) {
         List<JsonNode> cast = new ArrayList<>();
         for (JsonNode actor : castNode) {
-            if (cast.size() == MAX_CHARACTERS) {
-                break;
-            }
             cast.add(actor);
         }
 

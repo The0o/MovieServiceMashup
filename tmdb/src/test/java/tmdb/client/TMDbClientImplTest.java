@@ -14,6 +14,8 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
+import java.util.StringJoiner;
+import java.util.concurrent.ConcurrentHashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,6 +39,7 @@ class TMDbClientImplTest {
 
     private HttpServer server;
     private String baseUrl;
+    private final Map<String, String> responses = new ConcurrentHashMap<>(RESPONSES);
 
     @BeforeEach
     void startFakeTmdb() throws IOException {
@@ -52,7 +55,7 @@ class TMDbClientImplTest {
                 status = 200;
                 body = "{\"results\": []}";
             } else {
-                body = RESPONSES.get(exchange.getRequestURI().getPath());
+                body = responses.get(exchange.getRequestURI().getPath());
                 status = body == null ? 404 : 200;
                 body = body == null ? "{}" : body;
             }
@@ -88,6 +91,32 @@ class TMDbClientImplTest {
         assertNull(neo.getDeathday());
         assertEquals("Beirut, Lebanon", neo.getPlaceOfBirth());
         assertEquals("https://image.tmdb.org/t/p/w500/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg", neo.getImgUrl().toString());
+    }
+
+    @Test
+    void returnsAllCharactersWhenCastExceedsTwenty() throws MovieInfoNotFoundException {
+        StringJoiner cast = new StringJoiner(",", "{\"cast\":[", "]}");
+        for (int i = 0; i < 25; i++) {
+            int id = 10_000 + i;
+            cast.add("{\"id\":" + id + ",\"name\":\"Actor " + i
+                    + "\",\"character\":\"Character " + i + "\"}");
+            responses.put("/3/person/" + id,
+                    "{\"birthday\":\"1980-01-01\",\"deathday\":null,"
+                            + "\"place_of_birth\":\"Paris\",\"profile_path\":\"/actor.jpg\"}");
+        }
+        responses.put("/3/movie/603/credits", cast.toString());
+
+        MovieInfoDto movie = new TMDbClientImpl("test-key", baseUrl)
+                .findMovieInformation("The Matrix");
+
+        assertEquals(25, movie.getCharacters().size());
+        for (int i = 0; i < 25; i++) {
+            CharacterDto character = movie.getCharacters().get(i);
+            assertEquals("Character " + i, character.getCharacterName());
+            assertEquals("Actor " + i, character.getActorName());
+            assertEquals("1980-01-01", character.getBirthday());
+            assertEquals("Paris", character.getPlaceOfBirth());
+        }
     }
 
     @Test
