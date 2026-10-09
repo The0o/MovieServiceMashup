@@ -6,10 +6,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.time.LocalDate;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+
+/**
+ *
+ */
 public class Movie {
 
     private String title;
-    private int year;
+    private int year; // Amélioration possible, stocker les dates de sorties par pays
 
     @JsonProperty("visualisationinfo")
     private VisualisationInfo visualisationInfo;

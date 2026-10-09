@@ -10,7 +10,7 @@ import java.time.LocalDate;
 public class VisualisationInfo {
 
     @JsonProperty("date")
-    private LocalDate visualisationDate;
+    private LocalDate visualisationDate; // Amélioration possible : en faire un tableau de date de visionnage
     private int punctuation;
 
     public VisualisationInfo() {
